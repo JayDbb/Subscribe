@@ -93,6 +93,7 @@ footer{
 #link{
     text-decoration: none;
     color: #9e6743;
+    z-index: 1;
 }
 
 #ending{
@@ -124,6 +125,7 @@ footer{
     padding: 10px;
     padding-left: 22vw;
     box-sizing: border-box;
+    z-index: 1;
     word-wrap: normal;
 }
 #mainside{
@@ -132,6 +134,7 @@ footer{
 }
 #maintext h2{
     text-align: left;
+    z-index: 1;
 }
 #blob{
 clear:both;
@@ -143,6 +146,7 @@ clear:both;
     background-color: #9e6743;
     box-sizing: border-box;
     border: #fcc7a4 5px solid;
+    z-index: 1;
 }
 .backset{
     margin-left: 20px;
@@ -159,7 +163,7 @@ clear:both;
     z-index: 0;
     font-family:  'Bungee', Helvetica, Arial, sans-serif;
 }
-@media(max-width:600px){
+@media(max-width:830px){
     #maintext{
         float: none;
         width: 100%;
@@ -167,5 +171,15 @@ clear:both;
     #sidetext{
         float: none;
         width: 100%;
+        margin-left: 20%;
+    }
+    #ending{
+        visibility: hidden;
+    }
+    #ending-2{
+        visibility: hidden;
+    }
+    .box-2{
+        margin-right: 100px;
     }
 }
